@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form,
+.result {
+  width: 250px;
+  height: 70px;
+}
+
+.result,
+.input {
+  border: 1px solid black;
+  padding: 3px;
+  box-sizing: border-box;
+  font-size: 26px;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
